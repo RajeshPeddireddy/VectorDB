@@ -1,0 +1,9 @@
+
+
+import os
+import openai
+from langchain.chat_models import ChatOpenAI
+
+os.environ["OPENAI_API_KEY"] = ""
+model = ChatOpenAI(temperature=0)
+print('test')
